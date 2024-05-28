@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.scrollable {
+  overflow-y: auto;
+}
+
+#analysis {
+  height: fit-content;
+  position: sticky;
+  top: 20px;
 }
